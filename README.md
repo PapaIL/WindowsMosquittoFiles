@@ -16,7 +16,7 @@ Using the installation .exe, install Mosquitto in the default directory, C:\Prog
     & also install mosquitto as a service.
 
 Disregard the installer's messages about .dll files to get because they no longer help enough.
-    This repository provides the needed .dll files.
+    This repository should provide the needed .dll files.
 
  Warning: The first run of mosquitto-****.exe to install Mosquitto will likely FAIL, 
      but it will have installed needed files and folders.
@@ -25,3 +25,8 @@ Download all the .dll files from this repository & put them in the C:\Program Fi
 
 Now (important), run the mosquitto-****.exe install program again
     and it should complete successfully.
+    
+After a successful install, you may need to start the mosquitto service running.
+   Restarting the computer might accomplish that.
+OR you could run cmd.exe as an administrator and enter the command   net start mosquitto.
+
