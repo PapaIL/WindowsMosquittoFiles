@@ -9,8 +9,8 @@ Mosquitto MQTT Message Service is often needed for Home Automation projects.
  
    Run the Mosquitto installation .exe file the FIRST time.
  You can use mosquitto-1.4.15a-install-win32.exe from this repository OR
-       from mosquitto.org/download/
-download the latest Mosquitto binary installation for Windows Vista up.
+   download the latest Mosquitto binary installation for Windows Vista up
+           from mosquitto.org/download/.
 
 Using the installation .exe, install Mosquitto in the default directory, C:\Program Files (x86)\mosquitto
     & also install mosquitto as a service.
