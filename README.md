@@ -21,9 +21,9 @@ Disregard the installer's messages about .dll files to get because they no longe
  Warning: The first run of mosquitto-****.exe to install Mosquitto will likely FAIL, 
      but it will have installed needed files and folders.
 
-Download all the .dll files from this repository & put them in the C:\Program Files (x86)\mosquitto folder.
+Download all the .dll files from this repository & put them in the C:\Program Files (x86)\mosquitto folder that the installer .exe created.
 
-Now (important), run the mosquitto-****.exe install program again
+Now (important), run the mosquitto-****.exe installer program again
     and it should complete successfully.
     
 After a successful install, you may need to start the mosquitto service running.
