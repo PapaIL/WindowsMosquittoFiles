@@ -5,11 +5,10 @@ Mosquitto MQTT Message Service is often needed for Home Automation projects.
  It handles messaging between devices and OpenHAB.
 
  Installing Mosquitto on Windows can be challenging to have all the right versions of dependent .dll files.
-
-          The following should help you succeed ...
-
-     Run the Mosquitto installation .exe file the FIRST time.
-You can use mosquitto-1.4.15a-install-win32.exe from this repository OR
+             The following should help you succeed ...
+ 
+   Run the Mosquitto installation .exe file the FIRST time.
+ You can use mosquitto-1.4.15a-install-win32.exe from this repository OR
        from mosquitto.org/download/
 download the latest Mosquitto binary installation for Windows Vista up.
 
