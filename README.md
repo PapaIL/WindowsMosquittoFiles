@@ -9,7 +9,7 @@ Mosquitto MQTT Message Service is often needed for Home Automation projects.
  mosquitto-1.4.10-install-win32.exe, the mosquitto installer is not the latest version,
     but it is the latest version I could get to work consistently with the following method.
  
-             The following should help you succeed ...
+             The following smight help you succeed ...
  
    Run the Mosquitto installation .exe file the FIRST time.
  I recommend you use mosquitto-1.4.10-install-win32.exe from this repository.
