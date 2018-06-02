@@ -40,4 +40,4 @@ OR 2) run cmd.exe as an administrator and there, enter the command   net start m
         right mouse click on Mosquitto Broker, and use a left mouse click to choose start.
 
               Congratulations.   Mosquitto service should now be running.
-     1) & 3) above will show you that it started running
+1) & 3) above will show you that it started running
