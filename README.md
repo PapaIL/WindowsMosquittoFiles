@@ -16,20 +16,20 @@ Mosquitto MQTT Message Service is often needed for Home Automation projects.
 
      The following worked for me and might help you succeed ...
  
-   Download this repositories files to where you can find them.
+   Download this repository's files to where you can find them, maybe C:\~PapaFiles
  
-Using the installation .exe, install Mosquitto in the default directory, C:\Program Files (x86)\mosquitto
+Using Mosquitto-****.exe, install Mosquitto in the default directory, C:\Program Files (x86)\mosquitto
     AND also install mosquitto as a service.
 
 Disregard the installer's messages about .dll files to get because
       some are wrong versions and one source is overkill.
          I believe this repository provides the needed files.
 
- Warning: When finished, the mosquitto-****.exe to install Mosquitto may say that it succeeded, 
+ Warning: When finished, the mosquitto-****.exe installer may say that it succeeded, 
      but it will not truly be working yet as a service.
  However, running the installer will install needed files and folders.
 
-Next move all four .dll files from this repository into the C:\Program Files (x86)\mosquitto folder that the installer .exe created.
+Next copy all four .dll files from this repository into the C:\Program Files (x86)\mosquitto folder that the mosquitto-****.exe created.
 
       Mosquitto should now have all it needs. Let's get it running & working.
     
@@ -39,15 +39,15 @@ OR B) run cmd.exe as an administrator and there, enter:  net start mosquitto.
     Or C) run services.msc, scroll down,
         right mouse click on Mosquitto Broker, and use a left mouse click to choose start.
         
-A) and C) will show you that it started running.
+A) and C) will show you that the mosquitto service started running.
 
-      One more thing, test that Mosquitto is working ...
+      One more thing, test that Mosquitto is truly working ...
 
-In the search box of Windows Start Button or Cortana, enter cmd twice.
-   on the screen, open 2 side by side command line windows.
+In the search box of Windows Start Button or Cortana, enter cmd twice ...
+   to open 2 command line windows on the screen. Arrange them side by side.
    
 In one cmd window enter: "C:\Program Files (x86)\mosquitto\mosquitto_sub" -h 127.0.0.1 -t house/#
-    (subscribes to any message in the topic "house"
+    (subscribes to any message published in the topic "house")
        In window 2, to publish a message in the topic "house" enter:
 "C:\Program Files (x86)\mosquitto\mosquitto_pub" -h 127.0.0.1 -m "Mosquitto MQTT Message Service is working" -t house/test -d
 
