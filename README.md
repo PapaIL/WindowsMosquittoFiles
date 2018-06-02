@@ -12,7 +12,7 @@ Mosquitto MQTT Message Service is often needed for Home Automation projects.
    AND putting high versions of these in the mosquitto program folder:
       libeay32.dll  pthreadVC2.dll  ssleay32.dll  vcruntime140.dll
 
-         I provide all 5 of the above files in this repository.
+         I provide all 7 of the above files in this repository.
 
      The following worked for me and might help you succeed ...
  
@@ -29,7 +29,7 @@ Disregard the installer's messages about .dll files to get because
      but it will not truly be working yet as a service.
  However, running the installer will install needed files and folders.
 
-Next copy all four .dll files from this repository into the C:\Program Files (x86)\mosquitto folder that the mosquitto-****.exe created.
+Next copy all six .dll files from this repository into the C:\Program Files (x86)\mosquitto folder that the mosquitto-****.exe created.
 
       Mosquitto should now have all it needs. Let's get it running & working.
     
