@@ -34,10 +34,10 @@ Next move all four .dll files from this repository into the C:\Program Files (x8
       Mosquitto should now have all it needs.  One more thing to do ...
     
 After a successful install, you likely need to start the mosquitto service running.
-   1) Restarting the computer will accomplish that.
-OR 2) run cmd.exe as an administrator and there, enter the command   net start mosquitto.
-    Or 3) run services.msc, scroll down,
+   A) Restarting the computer will accomplish that.
+OR B) run cmd.exe as an administrator and there, enter the command   net start mosquitto.
+    Or C) run services.msc, scroll down,
         right mouse click on Mosquitto Broker, and use a left mouse click to choose start.
 
               Congratulations.   Mosquitto service should now be running.
-1) & 3) above will show you that it started running
+A) and C) above will show you that it started running
