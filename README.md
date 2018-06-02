@@ -27,16 +27,17 @@ Disregard the installer's messages about .dll files to get because
 
  Warning: When finished, the mosquitto-****.exe to install Mosquitto may say that it succeeded, 
      but it will not truly be working yet as a service.
- However, the installer's first run will install needed files and folders.
+ However, running the installer will install needed files and folders.
 
 Next move all four .dll files from this repository into the C:\Program Files (x86)\mosquitto folder that the installer .exe created.
 
       Mosquitto should now have all it needs.  One more thing to do ...
     
-After a successful install, you will likely need to start the mosquitto service running.
-   Restarting the computer will accomplish that.
-OR you could run cmd.exe as an administrator and there, enter the command   net start mosquitto.
-    Or your could run services.msc, scroll down,
+After a successful install, you likely need to start the mosquitto service running.
+   1) Restarting the computer will accomplish that.
+OR 2) run cmd.exe as an administrator and there, enter the command   net start mosquitto.
+    Or 3) run services.msc, scroll down,
         right mouse click on Mosquitto Broker, and use a left mouse click to choose start.
 
-              Mosquitto service should now be running.  Congratulations.
+              Congratulations.   Mosquitto service should now be running.
+     1) & 3) above will show you that it started running
