@@ -42,4 +42,5 @@ OR B) run cmd.exe as an administrator and there, enter:  net start mosquitto.
               Congratulations.   Mosquitto service should now be running.
 A) and C) above will show you that it started running
 
-               PS I'm creating a script to automate much of the above.
+               PS I'm creating a script to automate much of the above
+                  & another script to test that mosquitto is working.
