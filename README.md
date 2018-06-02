@@ -31,16 +31,27 @@ Disregard the installer's messages about .dll files to get because
 
 Next move all four .dll files from this repository into the C:\Program Files (x86)\mosquitto folder that the installer .exe created.
 
-      Mosquitto should now have all it needs.  One more thing to do ...
+      Mosquitto should now have all it needs. Let's get it running & working.
     
 After a successful install, you likely need to start the mosquitto service running.
    A) Restarting the computer will accomplish that.
 OR B) run cmd.exe as an administrator and there, enter:  net start mosquitto.
     Or C) run services.msc, scroll down,
         right mouse click on Mosquitto Broker, and use a left mouse click to choose start.
+        
+A) and C) will show you that it started running.
 
-              Congratulations.   Mosquitto service should now be running.
-A) and C) above will show you that it started running
+      One more thing, test that Mosquitto is working ...
+
+In the search box of Windows Start Button or Cortana, enter cmd twice.
+   on the screen, open 2 side by side command line windows.
+   
+In one cmd window enter: "C:\Program Files (x86)\mosquitto\mosquitto_sub" -h 127.0.0.1 -t house/#
+    (subscribes to any message in the topic "house"
+       In window 2, to publish a message in the topic "house" enter:
+"C:\Program Files (x86)\mosquitto\mosquitto_pub" -h 127.0.0.1 -m "Mosquitto MQTT Message Service is working" -t house/test -d
+
+     If the message displays in window 1, Mosquitto service should now be running.  Congratulations.
 
                PS I'm creating a script to automate much of the above
                   & another script to test that mosquitto is working.
