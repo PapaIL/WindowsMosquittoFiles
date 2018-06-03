@@ -59,7 +59,7 @@ In one cmd window enter: "C:\Program Files (x86)\mosquitto\mosquitto_sub" -h 127
 
          PS I'm creating a script to automate much of the above & another script to test that mosquitto is working.
          
-   Note: vcruntime.dll came from https://www.dll4free.com/pthreadvc2.dll.html.
+   Note: vcruntime140.dll came from https://www.dll4free.com/pthreadvc2.dll.html.
 The other .dll files came from http://slproweb.com/download/Win32OpenSSL_Light-1_0_2o.exe
    and https://slproweb.com/download/Win32OpenSSL_Light-1_1_0h.exe
    
