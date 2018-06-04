@@ -12,7 +12,7 @@ Mosquitto MQTT Message Service is often needed for Home Automation projects.
        libcrypto-1_1.dll  libeay32.dll  libssl-1_1.dll  pthreadVC2.dll  ssleay32.dll  vcruntime140.dll
 
 (I chose mosquitto-1.4.15a-install-win32.exe from https://ftp.fau.de/eclipse/mosquitto/binary/win32/ )
-     ^^ This gave no virus alerts.  Caution: version 1.14.15 did give a virus / trojan alert
+     Version 1.14.15a gave no virus alerts.  Caution: version 1.14.15 did give a virus / trojan alert
 
          I provide all 8 of the above files in this repository.
 
