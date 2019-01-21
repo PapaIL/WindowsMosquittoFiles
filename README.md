@@ -7,6 +7,8 @@ Mosquitto MQTT Message Service is often needed for Home Automation projects.
  Installing Mosquitto on Windows can be challenging, matching a good install .exe 
      with the right versions of dependent .dll files where needed.
 
+Note: As of Jan. 21, 2019, I am running Windows 10 Home, Version 10.0.17763 Build 17763.
+
    What seems to work:  running a relatively high mosquitto .exe installer
      AND putting high versions of these in the mosquitto program folder:  	msvcr120.dll
        libcrypto-1_1.dll  libeay32.dll  libssl-1_1.dll  pthreadVC2.dll  ssleay32.dll  vcruntime140.dll
