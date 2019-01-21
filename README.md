@@ -13,8 +13,8 @@ Note: As of Jan. 21, 2019, I am running Windows 10 Home, Version 10.0.17763 Buil
      AND putting high versions of these in the mosquitto program folder:  	msvcr120.dll
        libcrypto-1_1.dll  libeay32.dll  libssl-1_1.dll  pthreadVC2.dll  ssleay32.dll  vcruntime140.dll
 
-(I chose mosquitto-1.4.15a-install-win32.exe from https://ftp.fau.de/eclipse/mosquitto/binary/win32/ )
-     Version 1.14.15a gave no virus alerts.  Caution: version 1.14.15 did give a virus / trojan alert
+(I chose mosquitto-1.4.15a-install-win32.exe from https://ftp.fau.de/eclipse/mosquitto/binary/win32/ 
+     Version 1.14.15a gave no virus alerts.  Caution: version 1.14.15 did give a virus / trojan alert. I was not able to make these files work: mosquitto-1.5.1-install-windows-x86.exe or xxx.2 or xxx.3 ie xxx.4 )
 
          I provide all 8 of the above files in this repository.
 
